@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image with Text</title>
+    <style>
+        /* Full page styles */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Set background image */
+        .background {
+            background-image: url('your-image.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Text styles */
+        .text {
+            color: white;
+            font-size: 3rem; /* You can adjust the size */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <div class="text">
+            Your Big Text Here
+        </div>
+    </div>
+
+</body>
+</html>
